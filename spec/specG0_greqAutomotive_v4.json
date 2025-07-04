@@ -1,0 +1,404 @@
+{
+  "columns": [
+    {
+      "field": "id",
+      "headerName": "ID",
+      "editable": true,
+      "width": 150,
+      "order": 0
+    },
+    {
+      "field": "description",
+      "headerName": "Description",
+      "editable": true,
+      "width": 400,
+      "order": 1,
+      "editorType": "text",
+      "defaultValue": "",
+      "align": "left"
+    },
+    {
+      "field": "this_is_a",
+      "headerName": "this_is_a",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Context",
+        "Chapter",
+        "Comment",
+        "Functional Requirement",
+        "Non-Functional Requirement",
+        "Security Requirement",
+        "User Interface Requirement",
+        "Flexibility Requirement"
+      ],
+      "editorType": "select",
+      "defaultValue": "None",
+      "order": 2
+    },
+    {
+      "field": "ReqStatus",
+      "headerName": "Requirement Status",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Pending",
+        "Approved",
+        "Rejected"
+      ],
+      "editorType": "select",
+      "defaultValue": "Pending",
+      "order": 3
+    },
+    {
+      "field": "ImpStatus",
+      "headerName": "Implementation Status",
+      "editable": true,
+      "width": 200,
+      "valueOptions": [
+        "Not Implemented",
+        "In Progress",
+        "Completed",
+        "Not Aplicable"
+      ],
+      "editorType": "select",
+      "defaultValue": "Not Implemented",
+      "order": 4
+    }
+  ],
+  "rows": [
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "System name: Greq Automotive",
+      "id": "REQ-001",
+      "rowOrder": 1,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "Greq Automotive is an AI-native requirements editor specializing in the review process.  It focuses on the content of the specifications themselves, not on the processes of requirement management systems (it has only basic capabilities). The system's goal is to help users review requirements faster, better, and more reliably in different formats and domains due to its adaptation and configuration capacity.",
+      "id": "REQ-002",
+      "rowOrder": 2,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Context"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Import",
+      "id": "REQ-010",
+      "rowOrder": 3,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "As a user, I want to be able to import my specifications in JSON format.",
+      "id": "new-id-1749025942643-1lz27l",
+      "rowOrder": 4,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1750248942395-3h1v3o",
+      "rowOrder": 5,
+      "description": "As a user, I want to be able to import my specifications in CSV format."
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "Chapter: Basic Review",
+      "id": "REQ-030",
+      "rowOrder": 6,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Chapter"
+    },
+    {
+      "description": "As a user, I want the system to perform automated syntactic and semantic checks using tools or LLMs.",
+      "id": "new-id-1749041194934-2yd9kd",
+      "rowOrder": 7,
+      "this_is_a": "Context"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "As a user, I want to review my specifications for syntactic errors.",
+      "id": "REQ-013",
+      "rowOrder": 8,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "As a user, I want to review my specifications for semantic errors.",
+      "id": "REQ-020",
+      "rowOrder": 9,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "As a user, I want to receive proposals to fix detected syntactic or semantic errors.",
+      "id": "REQ-018",
+      "rowOrder": 10,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "As a user, I want a final report of the basic review process",
+      "id": "REQ-004",
+      "rowOrder": 11,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Approved",
+      "description": "As a user, I want a final report of the basic review process",
+      "id": "new-id-1750250501696-qjkhk9",
+      "rowOrder": 12,
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "As a user, I want to accept or reject each  proposed correction individually in basic review mode",
+      "id": "new-id-1749041536824-xaqs2y",
+      "rowOrder": 13,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "null",
+      "this_is_a": "None",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "id": "new-id-1750250492700-s6qmn9",
+      "rowOrder": 14
+    },
+    {
+      "description": "null",
+      "this_is_a": "None",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "id": "new-id-1750250499006-w96v2",
+      "rowOrder": 15
+    },
+    {
+      "description": "null",
+      "id": "new-id-1750250487034-10ol0d",
+      "rowOrder": 16,
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "",
+      "this_is_a": "None",
+      "ReqStatus": "Pending",
+      "ImpStatus": "Not Implemented",
+      "id": "new-id-1750250489712-ys4q37",
+      "rowOrder": 17
+    },
+    {
+      "id": "new-id-1750249691681-fhon8n",
+      "rowOrder": 18,
+      "description": "As a user, I want requirements with a score higher than 90 to be excluded from basic review suggestions unless explicitly requested."
+    },
+    {
+      "description": "Chapter: Advanced Review",
+      "id": "new-id-1749041089371-tni01v",
+      "rowOrder": 19,
+      "this_is_a": "Chapter"
+    },
+    {
+      "description": "As a user, I want to review my specifications for duplicate requirements.",
+      "id": "new-id-1749041089214-8kb2ef",
+      "rowOrder": 20,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "As a user, I want the system to identify potentially missing requirements.",
+      "id": "new-id-1749041089018-gzycwr",
+      "rowOrder": 21,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "As a user, I want to review my specifications for inconsistent requirements.",
+      "id": "new-id-1749041088159-w91zy",
+      "rowOrder": 22,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "description": "As a user, I want to accept or reject each  proposed correction individually in advanced review mode",
+      "id": "new-id-1749041624810-7gpkzg",
+      "rowOrder": 23,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1750249013369-w05zu8",
+      "rowOrder": 24,
+      "description": "Chapter: Requirement Analysis Score"
+    },
+    {
+      "id": "new-id-1750249436020-smeflv",
+      "rowOrder": 25,
+      "description": "Users commonly request a way to assess the quality of requirements. They prefer color-coded grading systems, which help them understand the strengths and weaknesses of their requirements. This also allows experts to analyze the quality of the work. This section describes the mechanism and features; the display in reports or dialogs will be addressed later."
+    },
+    {
+      "id": "new-id-1750249013212-tm1zxs",
+      "rowOrder": 26,
+      "description": "As a user, I want each requirement to be analyzed and assigned a quality score from 0 to 100."
+    },
+    {
+      "id": "new-id-1750249013036-wcu75",
+      "rowOrder": 27,
+      "description": "As a user, I want a color schema for the score"
+    },
+    {
+      "id": "new-id-1750249012642-skx59s",
+      "rowOrder": 28,
+      "description": "As a user, I want to select the quality metrics to be analyzed."
+    },
+    {
+      "id": "new-id-1750249766453-mffz9e",
+      "rowOrder": 29,
+      "description": "As a user, I want to be able to add the calculated score as a column in the specification file"
+    },
+    {
+      "id": "new-id-1749042378097-ier5k6",
+      "rowOrder": 30,
+      "description": "Chapter: Table View",
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "new-id-1749042534902-dt6qdf",
+      "rowOrder": 31,
+      "description": "This is the Excel/SQL view mode that technical users are accustomed to, especially in technical industries where numerous fields (attributes) must be populated and tracked during project management.",
+      "this_is_a": "Context"
+    },
+    {
+      "id": "new-id-1749042377881-kwauzy",
+      "rowOrder": 32,
+      "description": "As a user, I want to view my data in table format",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1749042377491-x3say7",
+      "rowOrder": 33,
+      "description": "As a user, I want to hide some columns during visualization",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1749042377004-rfiw2s",
+      "rowOrder": 34,
+      "description": "As a user, I want to reorganize my columns",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1749042484987-9r4mwb",
+      "rowOrder": 35,
+      "description": "As a user, I want to resize any column.",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1749042520449-hw163n",
+      "rowOrder": 36,
+      "description": "Chapter: Document View",
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "new-id-1749042588387-mt8kms",
+      "rowOrder": 37,
+      "description": "This is the Word format that non-technical users are accustomed to. It is easier to read and understand, and generally used for simpler projects.",
+      "this_is_a": "Context"
+    },
+    {
+      "id": "new-id-1749042717648-c3xne",
+      "rowOrder": 38,
+      "description": "As a user, I want to view my data in a document (Word style) format.",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1749042717496-5p8zuq",
+      "rowOrder": 39,
+      "description": "As a user, I want to be able to hide or remove information about columns/attributes that are not relevant to me.",
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "id": "new-id-1750249827809-ts30pe",
+      "rowOrder": 40,
+      "description": "Chapter: Report",
+      "this_is_a": "Chapter"
+    },
+    {
+      "id": "new-id-1749042717341-s1ruy",
+      "rowOrder": 41,
+      "description": "Users appreciate reports and metrics displayed in a dashboard, as well as improvement suggestions. This chapter addresses these needs."
+    },
+    {
+      "id": "new-id-1750249899348-0x2hzv",
+      "rowOrder": 42,
+      "description": "As a user, I want a basic report with metrics from my current specifications"
+    },
+    {
+      "id": "new-id-1750249927591-e15x79",
+      "rowOrder": 43,
+      "description": "As a user, I want a more detailed (advanced) report with metrics from my current specifications."
+    },
+    {
+      "id": "new-id-1750249959887-ajtgy",
+      "rowOrder": 44,
+      "description": "As a user, I want a complete report that includes basic metrics, advanced metrics, and a comprehensive view of each requirement's information, score, and improvement suggestions if the score is below 90."
+    },
+    {
+      "id": "new-id-1750249988067-jmltkg",
+      "rowOrder": 45,
+      "description": "As a user, I want detailed analyses and improvement suggestions for each requirement to enhance my understanding."
+    },
+    {
+      "id": "new-id-1750250024943-nq2ybn",
+      "rowOrder": 46,
+      "description": "As a user, I want different suggestions from different LLMs for each requirement, so I can compare and choose the best option."
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "Chapter: Non-Functional Requirements",
+      "id": "REQ-023",
+      "rowOrder": 47,
+      "this_is_a": "Functional Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "As a user, I want the application to run in my browser.",
+      "id": "REQ-021",
+      "rowOrder": 48,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "User Interface Requirement"
+    },
+    {
+      "ImpStatus": "Not Implemented",
+      "ReqStatus": "Pending",
+      "description": "As a user, I want to spend a maximum of 1 minute reviewing every 10 specifications.",
+      "id": "REQ-024",
+      "rowOrder": 49,
+      "tempChangeStatus": "unchanged",
+      "this_is_a": "Flexibility Requirement"
+    }
+  ],
+  "uiStyles": {
+    "styleControlColumn": "",
+    "applyToColumn": "",
+    "styles": {}
+  }
+}
