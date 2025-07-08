@@ -1,5 +1,4 @@
 {
-  "title": "specG0_greqAutomotive_v4.json",
   "columns": [
     {
       "field": "id",
@@ -396,10 +395,5 @@
       "tempChangeStatus": "unchanged",
       "this_is_a": "Flexibility Requirement"
     }
-  ],
-  "uiStyles": {
-    "styleControlColumn": "",
-    "applyToColumn": "",
-    "styles": {}
-  }
+  ]
 }
