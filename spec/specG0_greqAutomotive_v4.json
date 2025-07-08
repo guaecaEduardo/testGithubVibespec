@@ -1,5 +1,4 @@
 {
-  "title": "specG0_greqAutomotive_v4.json",
   "columns": [
     {
       "field": "id",
@@ -154,7 +153,7 @@
     {
       "ImpStatus": "Not Implemented",
       "ReqStatus": "Approved",
-      "description": "As a user, I want a final report of the basic review process",
+      "description": "efzefz",
       "id": "REQ-004",
       "rowOrder": 11,
       "tempChangeStatus": "unchanged",
@@ -396,10 +395,5 @@
       "tempChangeStatus": "unchanged",
       "this_is_a": "Flexibility Requirement"
     }
-  ],
-  "uiStyles": {
-    "styleControlColumn": "",
-    "applyToColumn": "",
-    "styles": {}
-  }
+  ]
 }
