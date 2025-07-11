@@ -1,5 +1,4 @@
 {
-  "title": "specG0_greqAutomotive_v4.json",
   "columns": [
     {
       "field": "id",
@@ -192,7 +191,7 @@
       "rowOrder": 15
     },
     {
-      "description": "null",
+      "description": "This is my new requirement",
       "id": "new-id-1750250487034-10ol0d",
       "rowOrder": 16,
       "this_is_a": "Functional Requirement"
@@ -396,10 +395,5 @@
       "tempChangeStatus": "unchanged",
       "this_is_a": "Flexibility Requirement"
     }
-  ],
-  "uiStyles": {
-    "styleControlColumn": "",
-    "applyToColumn": "",
-    "styles": {}
-  }
+  ]
 }
