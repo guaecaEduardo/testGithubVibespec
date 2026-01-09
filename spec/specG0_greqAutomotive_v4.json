@@ -126,7 +126,7 @@
     {
       "ImpStatus": "Not Implemented",
       "ReqStatus": "Approved",
-      "description": "As a user, I want to review my specifications for syntactic errors.",
+      "description": "As a user, I want the system to identify syntactic errors in my specifications.",
       "id": "REQ-013",
       "rowOrder": 8,
       "tempChangeStatus": "unchanged",
@@ -135,7 +135,7 @@
     {
       "ImpStatus": "Not Implemented",
       "ReqStatus": "Approved",
-      "description": "As a user, I want to review my specifications for semantic errors.",
+      "description": "As a user, I want the system to identify semantic errors in my specifications.",
       "id": "REQ-020",
       "rowOrder": 9,
       "tempChangeStatus": "unchanged",
@@ -261,7 +261,7 @@
     {
       "id": "new-id-1750249013036-wcu75",
       "rowOrder": 27,
-      "description": "As a user, I want a color schema for the score"
+      "description": "As a user, I want a color schema for the quality score."
     },
     {
       "id": "new-id-1750249012642-skx59s",
@@ -282,7 +282,7 @@
     {
       "id": "new-id-1749042534902-dt6qdf",
       "rowOrder": 31,
-      "description": "This is the Excel/SQL view mode that technical users are accustomed to, especially in technical industries where numerous fields (attributes) must be populated and tracked during project management.",
+      "description": "The system shall provide an Excel/SQL view mode for technical users to manage projects with numerous fields (attributes).",
       "this_is_a": "Context"
     },
     {
